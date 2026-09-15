@@ -1,0 +1,24 @@
+# listing 7
+main:
+li x5, 4
+li x6, 3
+li x10, 0x600
+
+add x7, x0, x0
+loop_i:
+    bge x7, x5, exit_i
+    add x29, x0, x0
+loop_j:
+    bge x29, x6, exit_j
+    slli x28, x29, 4
+    add x28, x28, x10
+    add x30, x7, x29
+    sw x30, 0(x28)
+    addi x29, x29, 1
+    beq x0, x0, loop_j
+exit_j:
+    addi x7, x7, 1
+    beq x0, x0, loop_i
+exit_i:
+
+end: j end
