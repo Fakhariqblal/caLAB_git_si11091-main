@@ -1,0 +1,12 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/hussa/project_1/LAB_06/LAB_06.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+C:/Users/hussa/project_1/LAB_06/LAB_06.srcs/sim_1/new/ALU_tb.v,1791411476,verilog,,C:/Users/hussa/project_1/LAB_06/LAB_06.srcs/sim_1/new/ALU_testb.v,,,,,,,,,,
+,,,,,,,,,,,,,,
+C:/Users/hussa/project_1/LAB_06/LAB_06.srcs/sim_1/new/Tb_top_alu32bit.v,1791475261,verilog,,,,ALU_tb,,,,,,,,
+C:/Users/hussa/project_1/LAB_06/LAB_06.srcs/sources_1/new/ALUtop.v,1791475247,verilog,,C:/Users/hussa/project_1/LAB_06/LAB_06.srcs/sources_1/new/acsd.v,,top_alu32bit_fpga,,,,,,,,
+C:/Users/hussa/project_1/LAB_06/LAB_06.srcs/sources_1/new/acsd.v,1791482394,verilog,,C:/Users/hussa/project_1/LAB_06/LAB_06.srcs/sim_1/new/Tb_top_alu32bit.v,,ALU_32bit,,,,,,,,
+C:/Users/hussa/project_1/LAB_06/LAB_06.srcs/sources_1/new/debouncer.v,1791410413,verilog,,C:/Users/hussa/project_1/LAB_06/LAB_06.srcs/sources_1/new/leds.v,,debouncer,,,,,,,,
+C:/Users/hussa/project_1/LAB_06/LAB_06.srcs/sources_1/new/leds.v,1791411075,verilog,,C:/Users/hussa/project_1/LAB_06/LAB_06.srcs/sources_1/new/switches.v,,leds,,,,,,,,

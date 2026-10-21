@@ -1,0 +1,7 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/hussa/project_1/LAB_06/LAB_06.sim/sim_1/synth/func/xsim/ALU_tb_func_synth.v,1791481226,verilog,,C:/Users/hussa/project_1/LAB_06/LAB_06.srcs/sources_1/new/acsd.v,,glbl;switches;top_alu32bit_fpga,,,,,,,,
+C:/Users/hussa/project_1/LAB_06/LAB_06.srcs/sim_1/new/alutb.v,1791480046,verilog,,,,ALU_tb,,,,,,,,
+C:/Users/hussa/project_1/LAB_06/LAB_06.srcs/sources_1/new/acsd.v,1791480102,verilog,,C:/Users/hussa/project_1/LAB_06/LAB_06.srcs/sim_1/new/alutb.v,,ALU_32bit,,,,,,,,

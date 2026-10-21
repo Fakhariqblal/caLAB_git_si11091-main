@@ -1,0 +1,7 @@
+Running: xsim.dir/top_alu32bit_fpga_behav/xsimk.exe -simmode gui -wdb top_alu32bit_fpga_behav.wdb -simrunnum 0 -socket 59815
+Design successfully loaded
+Design Loading Memory Usage: 7956 KB (Peak: 7956 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 8668 KB (Peak: 8668 KB)
+Simulation CPU Usage: 46 ms
