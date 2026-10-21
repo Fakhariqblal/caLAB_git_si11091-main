@@ -1,0 +1,13 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+[PASS] Reset Values (x0 & x5) | reg[0]=0x00000000, reg[5]=0x00000005
+[PASS] Reset Values (x10 & x31) | reg[10]=0x0000000a, reg[31]=0x0000001f
+[PASS] Write to x5 | reg[5]=0x12345678, reg[0]=0x00000000
+[PASS] Write to x0 Ignored | reg[0]=0x00000000, reg[5]=0x12345678
+[PASS] Dual Read x5 & x6 | reg[5]=0x12345678, reg[6]=0x000000aa
+[PASS] Overwrite x5 | reg[5]=0x00000055, reg[6]=0x000000aa
+[PASS] Reset Restores Defaults | reg[5]=0x00000005, reg[6]=0x00000006
+----------------------------------------------
+ALL TESTS PASSED SUCCESSFULLY!
+----------------------------------------------
+$finish called at time : 138 ns : File "C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sim_1/new/RegisterFile_tb.v" Line 138

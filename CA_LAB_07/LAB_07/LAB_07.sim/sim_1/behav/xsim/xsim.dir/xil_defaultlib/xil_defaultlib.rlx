@@ -1,0 +1,11 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/hussa/project_1/LAB_07/LAB_07.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sim_1/new/RegisterFile_tb.v,1791996850,verilog,,C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sources_1/new/Register_File.v,,tb_RegisterFile,,,,,,,,
+C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sim_1/new/Top_Alu_Rf_tb.v,1791958448,verilog,,,,tb_top_rf_alu,,,,,,,,
+C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sources_1/new/ALU.v,1791957736,verilog,,C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sources_1/new/Alu_32bit.v,,top_rf_alu,,,,,,,,
+C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sources_1/new/Alu_32bit.v,1791968625,verilog,,C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sources_1/new/Register_File.v,,ALU_32bit,,,,,,,,
+C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sources_1/new/Led.v,1791958195,verilog,,C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sources_1/new/Register_File.v,,leds,,,,,,,,
+C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sources_1/new/Register_File.v,1791958448,verilog,,C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sim_1/new/RegisterFile_tb.v,,RegisterFile,,,,,,,,

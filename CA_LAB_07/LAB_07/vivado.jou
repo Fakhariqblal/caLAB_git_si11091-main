@@ -1,0 +1,130 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Oct 14 10:59:25 2026
+# Process ID: 28068
+# Current directory: C:/Users/hussa/project_1/LAB_07
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent35092 C:\Users\hussa\project_1\LAB_07\LAB_07.xpr
+# Log file: C:/Users/hussa/project_1/LAB_07/vivado.log
+# Journal file: C:/Users/hussa/project_1/LAB_07\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hussa/project_1/LAB_07/LAB_07.xpr
+update_compile_order -fileset sources_1
+set_property is_enabled true [get_files  C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sources_1/new/ALU.v]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sources_1/new/debouncer.v w ]
+add_files C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sources_1/new/debouncer.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sources_1/new/switches.v w ]
+add_files C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sources_1/new/switches.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sources_1/new/Alu_32bit.v w ]
+add_files C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sources_1/new/Alu_32bit.v
+update_compile_order -fileset sources_1
+close [ open C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sources_1/new/Led.v w ]
+add_files C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sources_1/new/Led.v
+update_compile_order -fileset sources_1
+file mkdir C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/constrs_1
+file mkdir C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/constrs_1/new
+close [ open C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/constrs_1/new/rf_xdx.xdc w ]
+add_files -fileset constrs_1 C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/constrs_1/new/rf_xdx.xdc
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sim_1/new/Top_Alu_Rf_tb.v w ]
+add_files -fileset sim_1 C:/Users/hussa/project_1/LAB_07/LAB_07.srcs/sim_1/new/Top_Alu_Rf_tb.v
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Top_Alu_Rf_tb [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source top_rf_alu.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_top_rf_alu [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_top_rf_alu.tcl
+close_sim
+launch_simulation
+source tb_top_rf_alu.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/hussa/project_1/LAB_07/LAB_07.runs/impl_1/top_rf_alu.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hussa/project_1/LAB_07/LAB_07.runs/impl_1/top_rf_alu.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/hussa/project_1/LAB_07/LAB_07.runs/impl_1/top_rf_alu.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/hussa/project_1/LAB_07/LAB_07.runs/impl_1/top_rf_alu.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_hw
+synth_design -rtl -name rtl_1
+close_design
+synth_design -rtl -name rtl_1
+close_design
+close_sim
+launch_simulation
+source tb_top_rf_alu.tcl
+close_sim
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top tb_RegisterFile [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_RegisterFile.tcl
+synth_design -rtl -name rtl_1
+close_sim
